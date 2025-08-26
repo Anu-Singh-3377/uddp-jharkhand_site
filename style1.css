@@ -1,0 +1,85 @@
+ body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fbfc;
+  margin: 0;
+  padding: 20px;
+}
+
+.uddp-wrapper {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.uddp-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.uddp-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.uddp-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.uddp-department-box,
+.uddp-citizen-box {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  width: 380px;
+  padding: 25px 30px;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+.uddp-department-box:hover,
+.uddp-citizen-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.uddp-box-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.uddp-icon {
+  font-size: 24px;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.uddp-box-title {
+  font-size: 20px;
+  margin: 0;
+  color: #222;
+}
+
+.uddp-list {
+  padding-left: 20px;
+}
+
+.uddp-list li {
+  margin-bottom: 10px;
+  color: #333;
+  list-style: disc;
+}
+
+.uddp-department-box {
+  border-left: 5px solid #1e40af;
+}
+
+.uddp-citizen-box {
+  border-left: 5px solid #16a34a;
+}

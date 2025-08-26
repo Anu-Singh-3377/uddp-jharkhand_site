@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UDDP Registration</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+  <div class="uddp-container">
+    <h2 class="uddp-title">UDDP User Registration</h2>
+    <form class="uddp-form" action="#" method="post">
+
+      <div class="uddp-form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" class="uddp-input" name="fullname" required>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="email">Email ID</label>
+        <input type="email" id="email" class="uddp-input" name="email" required>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile" class="uddp-input" name="mobile" pattern="[0-9]{10}" required>
+      </div>
+
+      <div class="uddp-form-group">
+        <label>Gender</label>
+        <div class="uddp-gender">
+          <label><input type="radio" name="gender" value="male" required> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="degree">Select Degree</label>
+        <select id="degree" class="uddp-input" name="degree" required>
+          <option value="" disabled selected>Select your degree</option>
+          <option value="btech">B.Tech</option>
+          <option value="bca">BCA</option>
+          <option value="bsc">B.Sc</option>
+          <option value="ba">BA</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="address">Address</label>
+        <textarea id="address" class="uddp-input" name="address" rows="3" required></textarea>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="uddp-input" name="password" required>
+      </div>
+
+      <div class="uddp-form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" class="uddp-input" name="confirm-password" required>
+      </div>
+
+      <button type="submit" class="uddp-btn">Register</button>
+    </form>
+  </div>
+
+</body>
+</html>

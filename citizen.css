@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #b8e0c3, #51a89c);
+  min-height: 100vh;
+}
+
+header {
+  background-color: #066a44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  color: white;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.left-section {
+  width: 50%;
+  color: #003c2e;
+}
+
+.left-section .namaste {
+    width: 1;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.left-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left-section .highlight {
+  color: #1f2f91;
+}
+
+.left-section p {
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.right-section {
+  width: 40%;
+  background-color: #d9f0e5;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.right-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.right-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.right-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkboxes label {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.checkboxes input {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.otp-btn, .bio-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background-color: #3aa97b;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bio-btn {
+  background-color: #279265;
+}
+
+
+
+
+
+.citizen{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.about-text li {
+  margin-bottom: 12px;
+}
+
+.about-images img {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  margin-left: 100px;
+}
